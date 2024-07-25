@@ -15,13 +15,13 @@ C_N_U IE's final assignment for the Speech Signal Processing course, I did a spe
 
 
 
-<div style="text-align:center;">
+<div style="center;">
     <img src="./Figures/model.png" alt="Workflow" width="500" height="200" style="display: inline-block;"/>
 </div>
 
 双向融合注意力机制细节如图所示，
-<div style="text-align:center;">
-    <img src="./Figures/detail.png" alt="detail" width="200" height="200" style="display: inline-block;"/>
+<div style="center;">
+    <img src="./Figures/detail.png" alt="detail" width="400" height="400"/>
 </div>
 
 
