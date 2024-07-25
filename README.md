@@ -16,12 +16,12 @@ C_N_U IE's final assignment for the Speech Signal Processing course, I did a spe
 
 
 <div style="text-align:center;">
-    <img src="./Figures/model.png" alt="Workflow" width="500" height="200" />
+    <img src="./Figures/model.png" alt="Workflow" width="500" height="200" style="display: inline-block;"/>
 </div>
 
 双向融合注意力机制细节如图所示，
 <div style="text-align:center;">
-    <img src="./Figures/detail.png" alt="detail" width="200" height="200" />
+    <img src="./Figures/detail.png" alt="detail" width="200" height="200" style="display: inline-block;"/>
 </div>
 
 
@@ -42,7 +42,7 @@ The final results may be slightly fluctuating, but the overall results should co
 
 确实在复现过程中效果略有低于论文中公布的指标，由于开源项目中未更详细描述部署环境，也没过于追究。
 <div style="text-align:center;">
-    <img src="./Figures/result.png" alt="detail" width="600" height="150" />
+    <img src="./Figures/result.png" alt="detail" width="600" height="150" style="display: inline-block;"/>
 </div>
 
 The processed MOSI and MOSEI dataset has been uploaded to Google Drive: https://drive.google.com/drive/folders/1MNp1qycJLfY87xUDouNU9gm2O5BsYRFE and Baidu Disk: https://pan.baidu.com/s/1CRbE4rPUhEfmCysuY4_q3A (Code: rif6).
