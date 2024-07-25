@@ -16,12 +16,12 @@ C_N_U IE's final assignment for the Speech Signal Processing course, I did a spe
 
 
 <div style="center;">
-    <img src="./Figures/model.png" alt="Workflow" width="500" height="200" style="display: inline-block;"/>
+    <img src="./Figures/model.png" alt="Workflow" width="600" height="300" style="display: inline-block;"/>
 </div>
 
-双向融合注意力机制细节如图所示，
+双向融合注意力机制似乎是在arxiv上一篇论文中给出的，大概记得轮廓忘记哪篇了，细节如图所示，
 <div style="center;">
-    <img src="./Figures/detail.png" alt="detail" width="400" height="400"/>
+    <img src="./Figures/detail.png" alt="detail" width="250" height="250"/>
 </div>
 
 
@@ -31,7 +31,7 @@ The codes require the PyTorch and numpy installation.
 
 To run the codes:
 ```
-python /kaggle/input/cubemlp-main/Train.py --dataset mosi_SDK --batch_size 128 -- features_compose_t mean --features_compose_k cat --d_hiddens 50-2-128=10-2-32 --d_outs 50-2-128=10-2-32 --res_project 1-1 --bias --ln_first --dropout_mlp 0.1-0.1-0.1 --dropout 0.1-0.1-0.1-0.1 --bert_freeze part --bert_lr_rate 0.01 --learning_rate 4e-3
+python Train.py --dataset mosi_SDK --batch_size 128 -- features_compose_t mean --features_compose_k cat --d_hiddens 50-2-128=10-2-32 --d_outs 50-2-128=10-2-32 --res_project 1-1 --bias --ln_first --dropout_mlp 0.1-0.1-0.1 --dropout 0.1-0.1-0.1-0.1 --bert_freeze part --bert_lr_rate 0.01 --learning_rate 4e-3
 ```
 
 CubeMLP官方实现中提到
