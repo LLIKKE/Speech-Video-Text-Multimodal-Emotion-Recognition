@@ -1,8 +1,8 @@
 # 基于双向融合注意力的多模态多路特征融合方法
 
-C_N_U IE的语音信号处理课程期末课程设计，我做的是语音-文本-视频多模态方法的情感识别。
+语音信号处理课程期末课程设计，我做的是语音-文本-视频多模态方法的情感识别。
 
-C_N_U IE's final assignment for the Speech Signal Processing course, I did a speech-text-video multimodal approach to emotion recognition.
+final assignment for the Speech Signal Processing course, I did a speech-text-video multimodal approach to emotion recognition.
 
 
 本项目基于<CubeMLP: A MLP-based Model for Multimodal Sentiment Analysis and Depression Estimation> (ACM MM 2022)开发并尝试改进改进方法，尝试使用多路模态融合+双向融合注意力机制的方式提升算法性能。
